@@ -29,6 +29,22 @@
         <li>Zaid Mamsa (zaid.mamsa@berkeley.edu)</li>
         <li>Xiaoyuan Zhu (m195@berkeley.edu)</li>
       </ul>
+
+      <h2>Problem Description</h2>
+      <p>
+        Subdividing meshes is useful for rendering a more smooth, detailed surface. Subdivision methods allow us to take
+        a coarse, simple mesh of an object and extrapolate from it to create more smooth edges. In Project 2, we
+        implemented loop subdivision for triangle mesh surfaces. For our final project, our group will implement
+        alternative methods of subdivision. Loop subdivision only works for triangle meshes, so meshes made from
+        quadrilaterals require a different subdivision scheme, such as Catmull-Clark. Even for triangle meshes,
+        different subdivision schemes have tradeoffs. Loop subdivision can yield smoother final surfaces, while
+        Interpolating methods like the butterfly and modified butterfly method maintain key aspects of the original mesh.
+        The challenges of implementing different subdivision schemes lie in the details inherent to meshes: keeping
+        track of vertices and edges within the mesh, creating new mesh elements only when necessary, and updating the
+        mesh correctly with each subdivision. Our team plans to implement different options for subdivision (e.g.
+        Butterfly, modified butterfly, Catmull-Clark, Doo-Sabin) to provide functionality and benefits of these
+        different schemes.
+      </p>
     </div>
 	</body>
 </html>
